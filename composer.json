@@ -1,0 +1,44 @@
+{
+    "name": "nextdev/collection",
+    "description": "Collections utility class",
+    "autoload": {
+        "psr-4": {
+            "nextdev\\Collection\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "nextdev\\Collection\\": "test/"
+        }
+    },
+    "require": {
+        "php": "^7",
+        "nextdev/varinfo": "^1"
+    },
+    "require-dev": {
+        "phpunit/phpcov": "^6",
+        "phpunit/phpunit": "^8",
+        "squizlabs/php_codesniffer": "^3"
+    },
+    "scripts": {
+        "lint": "phpcs --standard=ruleset.xml src test",
+        "lint-fix" : "phpcbf --standard=ruleset.xml src test",
+        "test": [
+            "@test-unit",
+            "@testcov"
+        ],
+        "test-unit": "phpunit --coverage-php .tmp/coverage/unit.cov",
+        "test-s": "phpunit --stop-on-failure",
+        "testcov": "phpcov merge --text --html=.tmp/coverage -- .tmp/coverage"
+    },
+    "archive": {
+        "exclude": [
+            "/.",
+            ".gitignore",
+            "/test",
+            "/bootstrap.php",
+            "/phpunit.xml",
+            "/ruleset.xml"
+        ]
+    }
+}
