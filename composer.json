@@ -1,21 +1,21 @@
 {
-    "name": "nextdev/collection",
+    "name": "phf/collection",
     "description": "Collections utility class",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "nextdev\\Collection\\": "src/"
+            "PhF\\Collection\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "nextdev\\Collection\\": "test/"
+            "PhF\\Collection\\": "test/"
         }
     },
     "require": {
-        "php": "^7",
-        "nextdev/varinfo": "^1"
+        "php": ">=7",
+        "phf/varinfo": "^1"
     },
     "require-dev": {
         "phpunit/phpcov": "^6",

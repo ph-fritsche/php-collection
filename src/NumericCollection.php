@@ -1,10 +1,10 @@
 <?php
-namespace nextdev\Collection;
+namespace PhF\Collection;
 
 /**
  * Collection of numerics
  */
-class NumericCollection extends \nextdev\Collection\Collection
+class NumericCollection extends \PhF\Collection\Collection
 {
     protected static $invalidElementMessageAllowed = 'numerics';
 

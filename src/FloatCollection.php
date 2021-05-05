@@ -1,10 +1,10 @@
 <?php
-namespace nextdev\Collection;
+namespace PhF\Collection;
 
 /**
  * Collection of floats
  */
-class FloatCollection extends \nextdev\Collection\Collection
+class FloatCollection extends \PhF\Collection\Collection
 {
     protected static $invalidElementMessageAllowed = 'floats';
 

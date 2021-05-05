@@ -1,10 +1,10 @@
 <?php
-namespace nextdev\Collection;
+namespace PhF\Collection;
 
 /**
  * Collection of objects
  */
-class ObjectCollection extends \nextdev\Collection\Collection
+class ObjectCollection extends \PhF\Collection\Collection
 {
     protected static $invalidElementMessageAllowed = 'objects';
 

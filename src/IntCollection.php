@@ -1,10 +1,10 @@
 <?php
-namespace nextdev\Collection;
+namespace PhF\Collection;
 
 /**
  * Collection of integers
  */
-class IntCollection extends \nextdev\Collection\Collection
+class IntCollection extends \PhF\Collection\Collection
 {
     protected static $invalidElementMessageAllowed = 'integers';
 

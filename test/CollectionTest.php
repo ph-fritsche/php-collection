@@ -1,5 +1,5 @@
 <?php
-namespace nextdev\Collection;
+namespace PhF\Collection;
 
 use InvalidArgumentException;
 

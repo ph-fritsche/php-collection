@@ -1,10 +1,10 @@
 <?php
-namespace nextdev\Collection;
+namespace PhF\Collection;
 
 use InvalidArgumentException;
 use SplDoublyLinkedList;
 
-use nextdev\Varinfo\Varinfo;
+use PhF\Varinfo\Varinfo;
 
 /**
  * Collection of values satisfying a given expectation

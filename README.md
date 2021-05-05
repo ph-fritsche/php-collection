@@ -26,7 +26,7 @@ class BarEntity
     public string $baz;
 }
 
-class BarCollection extends \nextdev\Collection\Collection
+class BarCollection extends \PhF\Collection\Collection
 {
     protected static $invalidElementMessageAllowed = BarEntity::class;
 

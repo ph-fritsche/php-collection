@@ -1,10 +1,10 @@
 <?php
-namespace nextdev\Collection;
+namespace PhF\Collection;
 
 /**
  * Collection of arrays
  */
-class ArrayCollection extends \nextdev\Collection\Collection
+class ArrayCollection extends \PhF\Collection\Collection
 {
     protected static $invalidElementMessageAllowed = 'arrays';
 
